@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Add file Test2.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +44,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "spring.configuration.checksum": "170f4e99e80defce7993bdc5a6141d1f"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test2">
+  <component name="RunManager" selected="Application.Test3">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.spring_intro.Test1" />
       <module name="spring-course" />
@@ -74,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.spring_intro.Test3" />
+      <module name="spring-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.ivan100kg.spring_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
       </list>
@@ -89,7 +107,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654185335865</updated>
-      <workItem from="1654185337470" duration="4621000" />
+      <workItem from="1654185337470" duration="5414000" />
+      <workItem from="1654263434688" duration="2489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654185771643</created>
@@ -98,7 +117,42 @@
       <option name="project" value="LOCAL" />
       <updated>1654185771643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add file applicationContext.xml">
+      <created>1654192173881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654192173881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add file Cat.java">
+      <created>1654192198376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654192198376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add file Pet.java">
+      <created>1654192216790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654192216790</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add file Test1.java">
+      <created>1654192226880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654192226880</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add file Test2.java">
+      <created>1654192231971</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654192231971</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +171,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add file applicationContext.xml" />
+    <MESSAGE value="Add file Cat.java" />
+    <MESSAGE value="Add file Pet.java" />
+    <MESSAGE value="Add file Test1.java" />
+    <MESSAGE value="Add file Test2.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add file Test2.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
