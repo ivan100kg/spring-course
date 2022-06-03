@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Add file Test2.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test3.java" afterDir="false" />
+    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Add new file Test3.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654185335865</updated>
       <workItem from="1654185337470" duration="5414000" />
-      <workItem from="1654263434688" duration="2489000" />
+      <workItem from="1654263434688" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654185771643</created>
@@ -152,7 +149,35 @@
       <option name="project" value="LOCAL" />
       <updated>1654192231971</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change applicationContext.xml">
+      <created>1654266047061</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654266047061</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add constructors to Dog and Cat">
+      <created>1654266097570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654266097570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add new file Person.java">
+      <created>1654266115516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654266115516</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add new file Test3.java">
+      <created>1654266134233</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654266134233</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +201,11 @@
     <MESSAGE value="Add file Pet.java" />
     <MESSAGE value="Add file Test1.java" />
     <MESSAGE value="Add file Test2.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add file Test2.java" />
+    <MESSAGE value="Change applicationContext.xml" />
+    <MESSAGE value="Add constructors to Dog and Cat" />
+    <MESSAGE value="Add new file Person.java" />
+    <MESSAGE value="Add new file Test3.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new file Test3.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -8,6 +8,10 @@ public class Person {
         this.pet = pet;
     }
 
+    public Person() {
+        System.out.println("Person bean is created");
+    }
+
     public void setPet(Pet pet) {
         this.pet = pet;
         System.out.println("Pet was set in Person");
