@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Add new file Test3.java">
+    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Update applicationContext.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/myApp.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "spring.configuration.checksum": "170f4e99e80defce7993bdc5a6141d1f"
+    "spring.configuration.checksum": "db6e0e70a082c3f233beeb44bde3fbc7"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Test3">
@@ -105,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1654185335865</updated>
       <workItem from="1654185337470" duration="5414000" />
-      <workItem from="1654263434688" duration="3782000" />
+      <workItem from="1654263434688" duration="5179000" />
+      <workItem from="1654424823624" duration="1866000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654185771643</created>
@@ -177,7 +177,35 @@
       <option name="project" value="LOCAL" />
       <updated>1654266134233</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update applicationContext.xml">
+      <created>1654267835425</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654267835425</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add values to setters">
+      <created>1654426141441</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654426141441</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update Person">
+      <created>1654426162843</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654426162843</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update applicationContext.xml">
+      <created>1654426174827</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654426174827</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +233,10 @@
     <MESSAGE value="Add constructors to Dog and Cat" />
     <MESSAGE value="Add new file Person.java" />
     <MESSAGE value="Add new file Test3.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new file Test3.java" />
+    <MESSAGE value="Add values to setters" />
+    <MESSAGE value="Update Person" />
+    <MESSAGE value="Update applicationContext.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update applicationContext.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
