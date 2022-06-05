@@ -11,8 +11,11 @@
 
     <bean id="myPet"
           class="io.github.ivan100kg.spring_intro.Dog"
-          scope="prototype">
-        <property name="name" value="Tuzik"/>
+          init-method="init"
+          scope="singleton"
+          destroy-method="destroy">
+        <!--          scope="prototype">-->
+        <!--        <property name="name" value="Tuzik"/>-->
 
     </bean>
 
