@@ -8,13 +8,13 @@ public class Test4 {
                 "applicationContext2.xml"
         );
         Dog dog1 = context.getBean("myPet", Dog.class);
-        Dog dog2 = context.getBean("myPet", Dog.class);
-        dog1.setName("Sharik");
-        dog2.setName("Bobik");
-
-        System.out.println(dog1 == dog2);
-        System.out.println("dog1 name: " + dog1.getName());
-        System.out.println("dog2 name: " + dog2.getName());
+//        Dog dog2 = context.getBean("myPet", Dog.class);
+//        dog1.setName("Sharik");
+//        dog2.setName("Bobik");
+//
+//        System.out.println(dog1 == dog2);
+//        System.out.println("dog1 name: " + dog1.getName());
+//        System.out.println("dog2 name: " + dog2.getName());
         context.close();
     }
 }

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Update applicationContext.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
+    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Add Test4.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/spring_intro/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="C:\Users\ivan1\IdeaProjects\spring-course\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test4">
+  <component name="RunManager" selected="Application.Test5">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.spring_intro.Test1" />
       <module name="spring-course" />
@@ -107,8 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.spring_intro.Test5" />
+      <module name="spring-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.ivan100kg.spring_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
@@ -126,7 +141,7 @@
       <updated>1654185335865</updated>
       <workItem from="1654185337470" duration="5414000" />
       <workItem from="1654263434688" duration="5179000" />
-      <workItem from="1654424823624" duration="4933000" />
+      <workItem from="1654424823624" duration="7531000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654185771643</created>
@@ -240,7 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654427534466</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update Dog.java">
+      <created>1654430701866</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654430701866</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update applicationContext2.xml">
+      <created>1654430722246</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654430722246</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add Test4.java">
+      <created>1654430744178</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654430744178</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +308,10 @@
     <MESSAGE value="Update Person" />
     <MESSAGE value="Add file myApp.properties" />
     <MESSAGE value="Update applicationContext.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update applicationContext.xml" />
+    <MESSAGE value="Update Dog.java" />
+    <MESSAGE value="Update applicationContext2.xml" />
+    <MESSAGE value="Add Test4.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Test4.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
