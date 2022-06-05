@@ -15,6 +15,8 @@
     <bean id="myPerson"
           class="io.github.ivan100kg.spring_intro.Person">
         <property name="pet" ref="myPet"/>
+        <property name="surname" value="Bond"/>
+        <property name="age" value="39"/>
 <!--        <constructor-arg ref="myPet"/>-->
     </bean>
 
