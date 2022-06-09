@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Update applicationContext3.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/aspects/LoggingAspect.java" afterDir="false" />
+    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Update pom.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/AbstractLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/SchoolLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/UniversityLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/aspects/LoggingAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ivan1/IdeaProjects/jar/aspectjweaver-1.9.9.1.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.35632184",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "spring.configuration.checksum": "748f05855ac18f9d3e6e4ce7d7640952"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ivan1/IdeaProjects/jar/aspectjweaver-1.9.9.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.35632184&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;748f05855ac18f9d3e6e4ce7d7640952&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ivan1\IdeaProjects\spring-course\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.io.github.ivan100kg.aop.Test1">
     <configuration name="ConfigWithAnnotations1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.spring_intro.ConfigWithAnnotations1" />
       <module name="spring-course" />
@@ -76,19 +78,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.github.ivan100kg.spring_intro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.aop.Test1" />
-      <module name="spring-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.ivan100kg.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,9 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.github.ivan100kg.aop.Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.aop.Test1" />
+      <module name="spring-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.ivan100kg.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.io.github.ivan100kg.aop.Test1" />
         <item itemvalue="Application.Test6" />
         <item itemvalue="Application.ScopeTest" />
         <item itemvalue="Application.ConfigWithAnnotations1" />
@@ -147,7 +149,8 @@
       <workItem from="1654486998139" duration="3052000" />
       <workItem from="1654584050981" duration="10033000" />
       <workItem from="1654617995826" duration="4457000" />
-      <workItem from="1654669610013" duration="3789000" />
+      <workItem from="1654669610013" duration="9601000" />
+      <workItem from="1654750234408" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654185771643</created>
@@ -408,7 +411,42 @@
       <option name="project" value="LOCAL" />
       <updated>1654669775621</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add file Library.java">
+      <created>1654673804365</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1654673804365</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add file MyConfig.java">
+      <created>1654673823375</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1654673823375</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add file LoggingAspect.java">
+      <created>1654673832294</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1654673832294</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add file Test1.java">
+      <created>1654673850573</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1654673850573</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Update pom.xml">
+      <created>1654673862434</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1654673862434</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,9 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add file Test2.java" />
-    <MESSAGE value="Change applicationContext.xml" />
-    <MESSAGE value="Add constructors to Dog and Cat" />
     <MESSAGE value="Add new file Person.java" />
     <MESSAGE value="Add new file Test3.java" />
     <MESSAGE value="Add values to setters" />
@@ -442,16 +477,19 @@
     <MESSAGE value="Update Cat.java Person.java" />
     <MESSAGE value="Add file ConfigWithAnnotations1.java" />
     <MESSAGE value="Add file applicationContext3.xml" />
-    <MESSAGE value="Add file MyConfig.java" />
     <MESSAGE value="Add file ScopeTest.java" />
     <MESSAGE value="Add file Test6.java" />
     <MESSAGE value="Update Cat" />
     <MESSAGE value="Update Dog" />
     <MESSAGE value="Update Person" />
-    <MESSAGE value="Update pom.xml" />
     <MESSAGE value="Update ConfigWithAnnotations1.java" />
     <MESSAGE value="Update applicationContext3.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update applicationContext3.xml" />
+    <MESSAGE value="Add file Library.java" />
+    <MESSAGE value="Add file MyConfig.java" />
+    <MESSAGE value="Add file LoggingAspect.java" />
+    <MESSAGE value="Add file Test1.java" />
+    <MESSAGE value="Update pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update pom.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
