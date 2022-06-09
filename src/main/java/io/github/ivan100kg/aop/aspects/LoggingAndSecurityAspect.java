@@ -9,19 +9,47 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class LoggingAndSecurityAspect {
 
-    @Pointcut("execution(* get*())")
-    private void allGetMethods() {
+    @Pointcut("execution(void get*())")
+    private void allGetMethodsFromUL() {
     }
 
-    @Before("allGetMethods()")
+    @Pointcut("execution(void return*())")
+    private void allReturnMethodsFromUL() {
+    }
+
+    @Pointcut("execution(void get*()) || execution(void return*())")
+    private void allGetAndReturnMethodsFromUL() {
+    }
+
+    @Before("allGetMethodsFromUL()")
     public void beforeGetLoggingAdvice() {
-        System.out.println("beforeGetLoggingAdvice: log of trying to get the paper");
+        System.out.println("beforeGetLoggingAdvice: write Log #1");
     }
 
-    @Before("allGetMethods()")
-    public void beforeGetSecurityAdvice() {
-        System.out.println("beforeGetSecurityAdvice: check rights");
+    @Before("allReturnMethodsFromUL()")
+    public void beforeReturnLoggingAdvice() {
+        System.out.println("beforeReturnLoggingAdvice: write Log #2");
     }
+
+    @Before("allGetAndReturnMethodsFromUL()")
+    public void beforeGetAndReturnLoggingAdvice() {
+        System.out.println("beforeGetAndReturnLoggingAdvice: write Log #3");
+    }
+
+
+//    @Pointcut("execution(* get*())")
+//    private void allGetMethods() {
+//    }
+//
+//    @Before("allGetMethods()")
+//    public void beforeGetLoggingAdvice() {
+//        System.out.println("beforeGetLoggingAdvice: log of trying to get the paper");
+//    }
+//
+//    @Before("allGetMethods()")
+//    public void beforeGetSecurityAdvice() {
+//        System.out.println("beforeGetSecurityAdvice: check rights");
+//    }
 
 //    @Before("execution(* *(..))")
 //    public void beforeReturnBookAdvice() {
