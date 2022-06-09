@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Update pom.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/AbstractLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/SchoolLibrary.java" afterDir="false" />
+    <list default="true" id="3d8dc4fe-c93f-4aa0-a3d3-89600fa36e6a" name="Changes" comment="Add new methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/UniversityLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/aspects/LoggingAndSecurityAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/aop/aspects/LoggingAndSecurityAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,42 +144,7 @@
       <workItem from="1654584050981" duration="10033000" />
       <workItem from="1654617995826" duration="4457000" />
       <workItem from="1654669610013" duration="9601000" />
-      <workItem from="1654750234408" duration="382000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1654185771643</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1654185771643</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add file applicationContext.xml">
-      <created>1654192173881</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654192173881</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add file Cat.java">
-      <created>1654192198376</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654192198376</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Add file Pet.java">
-      <created>1654192216790</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654192216790</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add file Test1.java">
-      <created>1654192226880</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654192226880</updated>
+      <workItem from="1654750234408" duration="4362000" />
     </task>
     <task id="LOCAL-00006" summary="Add file Test2.java">
       <created>1654192231971</created>
@@ -446,7 +405,91 @@
       <option name="project" value="LOCAL" />
       <updated>1654673862434</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Add file AbstractLibrary.java">
+      <created>1654750856941</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1654750856941</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add file Book.java">
+      <created>1654750863405</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1654750863405</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add file UniversityLibrary.java">
+      <created>1654750891367</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1654750891367</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add file SchoolLibrary.java">
+      <created>1654750918156</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1654750918156</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Update Test1.java">
+      <created>1654750938555</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1654750938555</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Update LoggingAspect.java">
+      <created>1654750948261</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1654750948261</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Update Library.java">
+      <created>1654750980871</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1654750980871</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Update LoggingAndSecurityAspect.java">
+      <created>1654752333111</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1654752333113</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Update Test1.java">
+      <created>1654752341167</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1654752341167</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Update Test1.java">
+      <created>1654753670482</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1654753670482</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add combinations of pointcuts">
+      <created>1654753730722</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1654753730722</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Add new methods">
+      <created>1654753743963</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1654753743963</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,16 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add new file Person.java" />
-    <MESSAGE value="Add new file Test3.java" />
-    <MESSAGE value="Add values to setters" />
-    <MESSAGE value="Add file myApp.properties" />
-    <MESSAGE value="Update applicationContext.xml" />
-    <MESSAGE value="Add Test4.java" />
-    <MESSAGE value="Add Test5.java" />
-    <MESSAGE value="Update Test4.java" />
-    <MESSAGE value="Update Dog.java" />
-    <MESSAGE value="Update applicationContext2.xml" />
     <MESSAGE value="Update Cat.java Person.java" />
     <MESSAGE value="Add file ConfigWithAnnotations1.java" />
     <MESSAGE value="Add file applicationContext3.xml" />
@@ -489,7 +522,17 @@
     <MESSAGE value="Add file LoggingAspect.java" />
     <MESSAGE value="Add file Test1.java" />
     <MESSAGE value="Update pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update pom.xml" />
+    <MESSAGE value="Add file AbstractLibrary.java" />
+    <MESSAGE value="Add file Book.java" />
+    <MESSAGE value="Add file UniversityLibrary.java" />
+    <MESSAGE value="Add file SchoolLibrary.java" />
+    <MESSAGE value="Update LoggingAspect.java" />
+    <MESSAGE value="Update Library.java" />
+    <MESSAGE value="Update LoggingAndSecurityAspect.java" />
+    <MESSAGE value="Update Test1.java" />
+    <MESSAGE value="Add combinations of pointcuts" />
+    <MESSAGE value="Add new methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
