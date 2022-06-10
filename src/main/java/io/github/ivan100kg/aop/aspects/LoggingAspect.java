@@ -1,9 +1,13 @@
 package io.github.ivan100kg.aop.aspects;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
+
+import java.util.Arrays;
 
 @Component
 @Aspect
@@ -55,9 +59,20 @@ public class LoggingAspect {
 
 
 
-    @Before("io.github.ivan100kg.aop.aspects.MyPointcuts.allGetMethods()")
-    public void beforeGetLoggingAdvice() {
-        System.out.println("beforeGetLoggingAdvice: log of trying to get the paper");
+    @Before("io.github.ivan100kg.aop.aspects.MyPointcuts.allAddMethods()")
+    public void beforeAddLoggingAdvice(JoinPoint joinPoint) {
+        MethodSignature mS = (MethodSignature) joinPoint.getSignature();
+        System.out.println("mS: " + mS);
+        System.out.println("mS.getName(): " + mS.getName());
+        System.out.println("mS.getMethod(): " + mS.getMethod());
+        System.out.println("mS.getParameterTypes(): " + Arrays.toString(mS.getParameterTypes()));
+        System.out.println("mS.getReturnType(): " + mS.getReturnType());
+        Object[] arguments = joinPoint.getArgs();
+        System.out.println(Arrays.toString(arguments));
+        System.out.println("beforeAddLoggingAdvice: log of trying to get the paper");
+        System.out.println("-------------------------");
+
+
     }
 
 
