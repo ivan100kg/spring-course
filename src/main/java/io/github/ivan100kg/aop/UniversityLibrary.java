@@ -18,6 +18,7 @@ public class UniversityLibrary extends AbstractLibrary {
 
     public String returnBook() {
         System.out.println("returning the book to UL");
+        if (true) throw new IllegalStateException("My test Exception");
         return "The Lord of the Rings";
 
     }

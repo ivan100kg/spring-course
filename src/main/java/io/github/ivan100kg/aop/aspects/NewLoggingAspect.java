@@ -12,10 +12,14 @@ public class NewLoggingAspect {
     @Around("execution(String returnBook())")
     public Object aroundReturnBookLoggingAdvice(ProceedingJoinPoint point) throws Throwable {
         System.out.println("Before target method");
-        long start = System.currentTimeMillis();
-        Object targetResult = point.proceed();
+        Object targetResult = null;
+        try {
+            targetResult = point.proceed();
+        } catch (IllegalStateException ex) {
+            System.out.println("Caught: " + ex.getMessage());
+            throw ex;
+        }
         System.out.println("After target method");
-        System.out.println("time: " + (System.currentTimeMillis() - start));
         return targetResult;
     }
 }
