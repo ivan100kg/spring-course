@@ -20,6 +20,7 @@ public class University {
 
     public List<Student> getStudents() {
         System.out.println("getStudents starts");
+        if (false) throw new IllegalStateException("My Test Exception");
         System.out.println("Information from method getStudents:");
         System.out.println(students);
         return students;
