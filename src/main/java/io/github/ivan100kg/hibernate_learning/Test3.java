@@ -1,5 +1,6 @@
-package io.github.ivan100kg.hibernate_learning.entity;
+package io.github.ivan100kg.hibernate_learning;
 
+import io.github.ivan100kg.hibernate_learning.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
