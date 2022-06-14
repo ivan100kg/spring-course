@@ -15,8 +15,10 @@ public class Test4 {
             session.beginTransaction();
 
             // QUERY to DB
-            Employee emp = session.get(Employee.class, 2);
-            emp.setSalary(750);
+//            Employee emp = session.get(Employee.class, 2);
+//            emp.setSalary(750);
+            session.createQuery("UPDATE Employee SET salary=salary+10 WHERE name LIKE '%nn%'")
+                    .executeUpdate();
 
             session.getTransaction().commit();
         }
