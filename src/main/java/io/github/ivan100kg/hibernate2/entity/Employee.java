@@ -30,12 +30,11 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(String name, String surname, String department, int salary, Detail detail_id) {
+    public Employee(String name, String surname, String department, int salary) {
         this.name = name;
         this.surname = surname;
         this.department = department;
         this.salary = salary;
-        this.empDetail = detail_id;
     }
 
     @Override
@@ -88,5 +87,13 @@ public class Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    public Detail getEmpDetail() {
+        return empDetail;
+    }
+
+    public void setEmpDetail(Detail empDetail) {
+        this.empDetail = empDetail;
     }
 }
