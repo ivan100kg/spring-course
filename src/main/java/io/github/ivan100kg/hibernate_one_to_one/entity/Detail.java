@@ -1,4 +1,4 @@
-package io.github.ivan100kg.hibernate2.entity;
+package io.github.ivan100kg.hibernate_one_to_one.entity;
 
 import jakarta.persistence.*;
 
